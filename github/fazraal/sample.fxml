@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="150.0" prefWidth="700.0" style="-fx-background-color: #E0FFFF;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.fazraal.TeskController">
+    <children>
+        <Accordion />
+      <TextField fx:id="date" layoutY="74.0" promptText=" дата и время" />
+      <TextArea fx:id="tesk" prefHeight="50.0" prefWidth="469.0" promptText="Цель" />
+      <Button fx:id="cancel" layoutX="644.0" layoutY="124.0" mnemonicParsing="false" text="отмена" />
+      <Button fx:id="add" layoutX="563.0" layoutY="124.0" mnemonicParsing="false" text="добавить" />
+    </children>
+</AnchorPane>
